@@ -39,13 +39,13 @@ var prependKitten = (name) => {
 }
 
 var removeLastKitten = () => {
-  var newArray = kittens.slice(kittens.length,1)
+  var newArray = kittens.slice(kittens.length)
 
   return newArray
 }
 
 var removeFirstKitten = () => {
-  var newArray = kittens.slice(1,1)
+  var newArray = kittens.slice(1)
 
   return newArray
 }
