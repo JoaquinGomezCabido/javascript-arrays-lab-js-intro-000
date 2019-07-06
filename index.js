@@ -45,7 +45,7 @@ var removeLastKitten = () => {
 }
 
 var removeFirstKitten = () => {
-  var newArray = kittens.slice(0, kittens.length)
+  var newArray = kittens.slice(0, kittens.length-1)
 
   return newArray
 }
