@@ -8,20 +8,20 @@ var destructivelyAppendKitten = (name) => {
   return kittens
 }
 
-var destucivelyPrependKitten = (name) => {
+var destrucivelyPrependKitten = (name) => {
   kittens.ushift(name)
 
   return kittens
 }
 
 var destructivelyRemoveLastKitten = () => {
-  kittens.pop()
+  kittens.pop(1)
 
   return kittens
 }
 
 var destructivelyRemoveFirstKitten = () => {
-  kittens.unshift()
+  kittens.unshift(1)
 
   return kittens
 }
