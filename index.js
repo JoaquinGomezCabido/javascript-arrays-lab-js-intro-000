@@ -15,13 +15,13 @@ var destructivelyPrependKitten = (name) => {
 }
 
 var destructivelyRemoveLastKitten = () => {
-  kittens.pop()
+  kittens.pop(1)
 
   return kittens
 }
 
 var destructivelyRemoveFirstKitten = () => {
-  kittens.unshift()
+  kittens.unshift(1)
 
   return kittens
 }
