@@ -21,8 +21,9 @@ var destructivelyRemoveLastKitten = () => {
 }
 
 var destructivelyRemoveFirstKitten = () => {
+  kittens.unshift()
 
-  return kittens.unshift()
+  return kittens
 }
 
 var appendKitten = (name) => {
