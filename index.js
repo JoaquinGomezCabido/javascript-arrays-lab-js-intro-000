@@ -27,13 +27,13 @@ var destructivelyRemoveFirstKitten = () => {
 }
 
 var appendKitten = (name) => {
-  var newArray = kittens.slice(kittens.length, 0, name)
+  var newArray = [...kittens, name]
 
   return newArray
 }
 
 var prependKitten = (name) => {
-  var newArray = kittens.slice(0,0,name)
+  var newArray = [name, ...kittens]
 
   return newArray
 }
