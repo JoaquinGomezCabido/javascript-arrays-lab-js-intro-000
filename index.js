@@ -9,7 +9,7 @@ var destructivelyAppendKitten = (name) => {
 }
 
 var destructivelyPrependKitten = (name) => {
-  kittens.ushift(name)
+  kittens.unshift(name)
 
   return kittens
 }
